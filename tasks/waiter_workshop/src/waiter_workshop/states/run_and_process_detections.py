@@ -3,7 +3,7 @@ from typing import List
 import rospy
 import smach
 import numpy as np
-from receptionist.states import PointCloudSweep
+from waiter_workshop.states import PointCloudSweep
 from shapely.geometry import Polygon as ShapelyPolygon
 from geometry_msgs.msg import Polygon, Point, PointStamped
 from std_msgs.msg import Header

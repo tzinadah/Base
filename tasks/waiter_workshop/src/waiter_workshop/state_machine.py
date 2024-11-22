@@ -14,7 +14,7 @@ from lasr_skills import (
     WaitForPersonInArea,
 )
 from lasr_vision_msgs.srv import Recognise
-from receptionist.states import HandleGuest, IntroduceAndSeatGuest
+from waiter_workshop.states import HandleGuest, IntroduceAndSeatGuest
 from shapely.geometry import Polygon
 from std_msgs.msg import Empty, Header
 

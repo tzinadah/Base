@@ -7,7 +7,7 @@ import rospy
 import smach
 from smach import UserData
 from typing import List, Dict, Any
-from receptionist.states import SpeechRecovery
+from waiter_workshop.states import SpeechRecovery
 
 
 class GetNameAndDrink(smach.StateMachine):

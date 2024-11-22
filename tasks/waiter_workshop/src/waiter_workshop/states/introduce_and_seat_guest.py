@@ -20,7 +20,7 @@ from lasr_vision_msgs.srv import (
 )
 import rospy
 
-from receptionist.states import Introduce
+from waiter_workshop.states import Introduce
 
 import numpy as np
 from copy import deepcopy

@@ -1,7 +1,7 @@
 import smach
 
 from lasr_skills import AskAndListen, Say, AdjustCamera
-from receptionist.states import (
+from waiter_workshop.states import (
     GetNameAndDrink,
     GetNameOrDrink,
     ReceptionistLearnFaces,
